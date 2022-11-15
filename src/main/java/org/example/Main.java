@@ -7,7 +7,7 @@ import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) throws InterruptedException {
-        String imageTopic = "Я люблю тебя больше";
+        String imageTopic = "Цветы";
         worker<ArrayList<String>> parser = new worker<>(new googleParser());
         parser.setParserSettings(new googleSettings(20));
         //parser.addNewDataList(new NewData());
